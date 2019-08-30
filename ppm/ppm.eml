@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../../../ppm/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/../../../ppm/target"/>
+	</contentEntry>
+	<lib name="Maven: org.glassfish:javax.ejb:3.1" scope="PROVIDED"/>
+	<lib name="Maven: org.glassfish:javax.transaction:3.1" scope="PROVIDED"/>
+	<lib name="Maven: org.glassfish:javax.annotation:3.1" scope="PROVIDED"/>
+	<lib name="Maven: junit:junit:4.7" scope="TEST"/>
+	<levels>
+		<level name="Maven: org.glassfish:javax.ejb:3.1" value="project"/>
+		<level name="Maven: org.glassfish:javax.transaction:3.1" value="project"/>
+		<level name="Maven: org.glassfish:javax.annotation:3.1" value="project"/>
+		<level name="Maven: org.jdbi:jdbi3-core:3.8.2" value="project"/>
+		<level name="Maven: org.antlr:antlr4-runtime:4.7.2" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:1.7.25" value="project"/>
+		<level name="Maven: io.leangen.geantyref:geantyref:1.3.7" value="project"/>
+		<level name="Maven: junit:junit:4.7" value="project"/>
+	</levels>
+</component>
